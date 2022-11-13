@@ -1,0 +1,202 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.mainBody{
+    width: 600px;
+    height: 700px;
+    margin: 5px auto;
+    display: flex;
+}
+
+/* left side */
+.left{
+    width: 40%;
+    height: 100%;
+    background-color: rgb(72, 72, 72);
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.left > img{
+    width: 80%;
+    height: 200px;
+    background-size: cover;
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    transform: translate(-50%,0);
+    border-radius: 5%;
+}
+.left > .contact{
+    width: 80%;
+    /* background-color: white; */
+    height: 150px;
+    position: absolute;
+    top: 220px;
+    left: 50%;
+    transform: translate(-50%,0);
+    display: flex;
+    flex-direction: column;
+    color: rgb(205, 152, 53);
+    font-family: sans-serif;
+}
+.contact > h2{
+    text-transform:uppercase ;
+}
+.contact > #mail{
+    font-size: 13px;
+    padding-top:5px;
+}
+.contact > #phone{
+    font-size: 14px;
+    padding-top:5px;
+}
+.contact > #location{
+    font-size: 14px;
+    padding-top:5px;
+}
+.expertise{
+    width: 80%;
+    height: 200px;
+    /* background-color: wheat; */
+    text-transform: capitalize;
+    position: absolute;
+    top: 310px;
+    left: 30px;
+    color: rgba(170, 125, 40, 0.877);
+    margin-top: 15px;
+    font-family: sans-serif;
+}
+.expertise > h2{
+    text-transform: uppercase;
+}
+.expertise > ul{
+
+}
+.expertise > li{
+    position: relative;
+    left: 18px;
+}
+.perferences{
+    width: 80%;
+    height: 200px;
+    position: absolute;
+    top: 520px;
+    left: 30px;
+    font-family: sans-serif;
+    color: rgba(136, 96, 22, 0.877);
+}
+#firstPer{
+    margin-bottom: 10px;
+}
+#firstPer > p{
+    font-size: 14px;
+}
+#firstPer > span{
+    font-size: 14px;
+}
+#secondPer > p{
+    font-size: 14px;
+}
+#secondPer > span{
+    font-size: 14px;
+}
+
+/* right side */
+.right{
+    width: 60%;
+    height: 100%;
+    background-color: gray;
+    position: relative;
+}
+.firstBox{
+    width: 90%;
+    height: 220px;
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    transform: translate(-50%,0);
+}
+.firstBox > h1{
+    text-transform: uppercase;
+    font-size: 28px;
+    text-align: center;
+    margin-bottom: 5px;
+}
+.firstBox > h3{
+    text-transform: capitalize;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.firstBox > p{
+    font-size: 14px;
+}
+.firstBox > #line{
+    width: 80%;
+    height: 2px;
+    background-color: bisque;
+    position: absolute;
+    top: 200px;
+    left: 50%;
+    transform: translate(-50%,-100%);
+}
+/* work experience */
+.secondBox{
+    width: 90%;
+    height: 230px;
+    position: absolute;
+    top: 230px;
+    left: 50%;
+    transform: translate(-50%,0);
+}
+.secondBox > h2{
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.secondBox > h3{
+    text-transform: capitalize;
+}
+.secondBox > ul{
+    
+}
+.secondBox > ul > li{
+    width: 90%;
+    font-size: 14px;
+    position: relative;
+    left: 15px;
+}
+.secondBox > #line{
+    width: 80%;
+    height: 2px;
+    background-color: bisque;
+    position: absolute;
+    top: 270px;
+    left: 50%;
+    transform: translate(-50%,-100%);
+}
+.thirdBox{
+    width: 90%;
+    height: 150px;
+    position: absolute;
+    top: 520px;
+    left: 50%;
+    transform: translate(-50%,0);
+}
+.thirdBox > h2{
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+.thirdBox > ul > span{
+    text-transform: capitalize;
+}
+.thirdBox > ul > li{
+    width: 90%;
+    font-size: 14px;
+    position: relative;
+    left: 20px;
+}
